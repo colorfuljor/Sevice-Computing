@@ -8,6 +8,8 @@ CLI（Command Line Interface）实用程序是Linux下应用开发的基础。�
 
 具体详细请看：[开发 Linux 命令行实用程序 ](https://www.ibm.com/developerworks/cn/linux/shell/clutil/index.html)
 
+注：源文件在**src**目录下。
+
 ### 设计说明
 1. 参数解析  
 在执行命令之前，我们先要对其后的参数进行解析，也就是读取参数并绑定到我所定义的结构体上去，以方便我进一步的执行工作。在这一步骤中，为了满足 Unix 命令行规范，我根据作业要求使用了pflag，需要输入```go get github.com/spf13/pflag```安装pflag库，并在go文件中```import flag "github.com/spf13/pflag"```。然后如同下方代码，使用IntVarP等函数进行参数绑定，我们可以对参数设置shorthand。
