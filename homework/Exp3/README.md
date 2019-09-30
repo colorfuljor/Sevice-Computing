@@ -8,7 +8,7 @@ CLI（Command Line Interface）实用程序是Linux下应用开发的基础。�
 
 具体详细请看：[开发 Linux 命令行实用程序 ](https://www.ibm.com/developerworks/cn/linux/shell/clutil/index.html)
 
-注：源文件在**src**目录下。
+注：源文件在[src](src/)目录下。
 
 ### 设计说明
 1. 参数解析  
