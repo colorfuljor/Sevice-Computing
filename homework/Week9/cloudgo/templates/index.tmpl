@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+        <meta http-equiv="Content-Type" content="text/html;
+            charset=utf-8" />
+        <link href="style.css" type="text/css" rel="stylesheet" />
+        <script src="script.js" ></script>
+        <link rel="icon" href="image/calculator.png">
+    </head>
+    <body>
+        
+        <div id = "whole">
+            <h1>Calculator</h1>
+            <div id = "window">
+                <span id="result">0</span>
+            </div>
+            <div>
+                <ul>
+                    <li id = "left" class = "dark" onclick = "calculate('(');">(</li>
+                    <li id = "right" class = "dark" onclick = "calculate(')');">)</li>  
+                    <li id = "delete" class = "dark" onclick="calculate('d')">←</li>
+                    <li id = "div" class = "dark" onclick="calculate('/');">/</li>
+                    <li id = "sev" class = "num" onclick="calculate('7')">7</li>
+                    <li id = "eig" class = "num" onclick="calculate('8')">8</li>
+                    <li id = "nin" class = "num" onclick="calculate('9')">9</li>
+                    <li id = "mul" class = "dark" onclick="calculate('*')">*</li>
+                    <li id = "for" class = "num" onclick="calculate('4')">4</li>
+                    <li id = "fiv" class = "num" onclick="calculate('5')">5</li>
+                    <li id = "sex" class = "num" onclick="calculate('6')">6</li>
+                    <li id= "sub" class = "dark" onclick="calculate('-')">-</li>
+                    <li id = "one" class = "num" onclick="calculate('1')">1</li>
+                    <li id = "two" class = "num" onclick="calculate('2')">2</li>
+                    <li id = "thr" class = "num" onclick="calculate('3')">3</li>
+                    <li id = "add" class = "dark" onclick="calculate('+')">+</li>
+                    <li id = "clear" class = "dark" onclick = "calculate('c');">CE</li>
+                    <li id = "zero" class = "num" onclick="calculate('0')">0</li>
+                    <li id = "point" class = "dark" onclick="calculate('.')">.</li>
+                    <li id = "equal" class = "dark" onclick="calculate('=')">=</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

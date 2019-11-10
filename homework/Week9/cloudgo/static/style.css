@@ -1,0 +1,77 @@
+
+body {
+    font-family: 'Microsoft YaHei',Arial,sans-serif;
+    margin: 0px;
+    padding: 0px;
+    overflow:hidden;
+    cursor:default;
+    color: rgb(131, 175, 155);
+}
+
+#whole {
+    width: 484px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.5px solid rgb(204,204,204);
+    background: rgb(236,236,236);
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(131, 175, 155);
+}
+
+#window {
+    position: relative;
+    height:240px;
+    font-size: 60px;
+    
+}
+#result {
+    position: absolute;
+    bottom: 20px;
+    right: 13px;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    overflow: auto;
+}
+
+li {
+    float:left;
+    font-size: 20px;
+    list-style: none;
+    text-align: center;
+    width: 120px;
+    height: 74px;
+    
+    line-height: 74px;
+    background:white;
+    margin: 0.5px;
+}
+.dark {
+    background-color:  rgb(242,242,242);
+}
+.dark:hover {
+    background-color:  rgb(62,62,62);
+    color: rgb(209,209,209);
+    font-size: 25px;
+}
+.dark:active {
+    background-color:  rgb(123,123,123);
+}
+.num {
+    font-size: 24px;
+}
+.num:hover {
+    background-color: rgb(209,209,209);
+    font-size: 29px;
+}
+.num:active {
+    background-color: rgb(192,192,192);
+}
